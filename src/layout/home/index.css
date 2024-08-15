@@ -123,13 +123,16 @@ button.cancel {
 }
 
 @media (max-width: 480px) {
+    body {
+        height: 95vh;
+    }
     .calculator {
         padding: 5px;
     }
 
     .display {
         font-size: 36px;
-        padding: 40px;
+        padding: 50px;
     }
 
     .keys {
@@ -138,9 +141,9 @@ button.cancel {
     }
 
     .keys button {
-        padding: 18px;
-        font-size: 20px;
-        border-radius: 28%;
+        padding: 25px;
+        font-size: 22px;
+        border-radius: 50%;
     }
 }
 
